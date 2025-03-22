@@ -20,9 +20,17 @@ const Projects = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className='grid grid-cols-1 md:grid-cols2 lg:grid-cols-3 gap-6 w-full'>
+            className='grid grid-cols-1 md:grid-cols2 lg:grid-cols-3 gap-6 w-full'
+            >
+                {projectData.map((project) => (
+                    <a href={project.link} target='_blank' key={project.id} className="flew flex-col rounded-xl overflow-hidden cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-800 ">
+                        <img src={project.image} className="hover:scale-105 transition-transform duration-300" alt="" />
+
+                    </a>
+                ))}
                 
             </motion.div>
+
         </div>
     )
 }
