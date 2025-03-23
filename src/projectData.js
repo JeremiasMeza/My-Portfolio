@@ -9,11 +9,11 @@ export const projectData = [
   {
     id: 1,
     image: project1,
-    title: "E-Commerce Dashboard",
+    title: "Radio Nueva Vida 7",
     description:
-      "A comprehensive dashboard for managing online stores with real-time analytics, inventory management, and sales tracking. Built with modern web technologies for optimal performance.",
-    link: "https://github.com/yourusername/ecommerce-dashboard",
-    technologies: ["NextJs", "TypeScript", "PostgreSQL", "Docker", "Drizzle"],
+      "El sitio web de Radio Nueva Vida 7 en WordPress integra una API de streaming para ofrecer transmisión en línea 24/7. Además, el plugin Pan de Vida muestra versículos bíblicos aleatorios en pantalla, brindando contenido dinámico e interactivo a los oyentes.",
+    link: "https://radionuevavida7.cl/",
+    technologies: ["Wordpress", "MySql", "Php", "HTML", "CSS", "JavaScript"],
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ export const projectData = [
     description:
       "An AI-powered platform that helps create high-quality content using machine learning algorithms. Features include text generation, image creation, and content optimization.",
     link: "https://github.com/yourusername/ai-content-generator",
-    technologies: ["React", "Python", "TensorFlow", "FastAPI", "Redis"],
+    technologies: ["React", "Python", "TensorFlow", "FastAPI", "Redis", "Docker"],
   },
   {
     id: 3,

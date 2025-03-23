@@ -5,7 +5,7 @@ const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
 
     return (
-        <header className='fixed top-0 w-full backdrop-blue-md bg-black/30 border-b border-gray-700 border-opacity-20 z-50'>
+        <header className='fixed top-0 w-full backdrop-blur-md bg-black/30 border-b border-gray-700 border-opacity-20 z-50'>
             <nav className='max-w-7xl mx-auto py-6 px-6 lg:px-32 flex items-center justify-between text-white'>
                 <a
                     href="#about"
