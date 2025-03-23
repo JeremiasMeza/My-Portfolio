@@ -13,7 +13,7 @@ const Projects = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8}}
             className='text-4xl sm:text-6xl'
-            >My projects</motion.h1>
+            >Mis proyectos</motion.h1>
 
             <motion.div
             initial={{ opacity: 0, x: -100 }}

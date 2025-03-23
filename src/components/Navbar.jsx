@@ -15,13 +15,13 @@ const Navbar = () => {
                 </a>
                 <ul className='hidden md:flex gap-10'>
                     <li className='opacity-70 hover:opacity-100 transition-opacity'>
-                        <a href="#about">About</a>
+                        <a href="#about">Acerca de</a>
                     </li>
                     <li className='opacity-70 hover:opacity-100 transition-opacity'>
-                        <a href="#projects">Projects</a>
+                        <a href="#projects">Proyectos</a>
                     </li>
                     <li className='opacity-70 hover:opacity-100 transition-opacity'>
-                        <a href="#contact">Contact</a>
+                        <a href="#contact">Contacto</a>
                     </li>
                 </ul>
                 <button
@@ -35,17 +35,17 @@ const Navbar = () => {
                     <ul className='md:hidden absolute top-16 left-0 right-0 bg-black/90 border-b space-y-5 border-gray-800 py-16 text-center'>
                         <li className='group px-10 opacity-80 hover:opacity-100 transition-opacity'>
                             <a href="#about" onClick={() => setShowMenu(false)}>
-                                <span className='text-lg'>About</span>
+                                <span className='text-lg'>Acerca de</span>
                             </a>
                         </li>
                         <li className='group px-10 opacity-80 hover:opacity-100 transition-opacity'>
                             <a href="#projects" onClick={() => setShowMenu(false)}>
-                                <span className='text-lg'>Projects</span>
+                                <span className='text-lg'>Proyectos</span>
                             </a>
                         </li>
                         <li className='group px-10 opacity-80 hover:opacity-100 transition-opacity'>
                             <a href="#contact" onClick={() => setShowMenu(false)}>
-                                <span className='text-lg'>Contact</span>
+                                <span className='text-lg'>Contacto</span>
                             </a>
                         </li>
                     </ul>

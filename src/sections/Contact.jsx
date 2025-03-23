@@ -29,11 +29,17 @@ const Contact = () => {
                     ¡Gracias por visitar mi portafolio! Si tienes alguna pregunta o quieres saber más sobre mi experiencia profesional, no dudes en ponerte en contacto conmigo. También te invito a revisar o descargar mi Currículum Vitae para conocer más detalles sobre mi formación y trayectoria laboral.
                     <br />
                     </motion.p>
-                    <button className='relative overflow-hidden group bg-gradient-to-r from-blue-600 via-sky-500 to-blue-400 px-8 py-4 md:text-lg rounded-full font-semibold transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25 text-white '>
-                    <span className='relative z-10'>Descargar CV</span>
-                    <div className='absolute inset-0 bg-gradient-to-r from-blue-700 to-indigo-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
-
-                    </button>
+                    <a 
+                        href="/cv.pdf" 
+                        download="Curriculum_Vitae_Jeremias_Meza" 
+                        className='relative overflow-hidden group bg-gradient-to-r from-blue-600 via-sky-500 to-blue-400 px-8 py-4 md:text-lg rounded-full font-semibold transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25 text-white'>
+                        
+                        <span className='relative z-10'>Descargar CV</span>
+                        
+                        <div className='absolute inset-0 bg-gradient-to-r from-blue-700 to-indigo-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
+                    
+                    </a>
+                    
 
                     <footer className='w-full mt-10 border-t border-gray-800/30 p-10'>
                         <div className='text-gray-400 text-center text-sm sm:text-base hover:text-gray-300 transition-colors '>
