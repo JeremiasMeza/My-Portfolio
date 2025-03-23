@@ -31,13 +31,17 @@ const About = () => {
                         <p className='text-sm text-slate-400 text-center md:text-left text-pretty'>¡Un apasionado del código que convierte cafeína en código funcional! Me muevo entre el backend con Python y el frontend con HTML, CSS y JavaScript como un ninja digital. No soy solo un programador, soy un solucionador de problemas que disfruta tanto debuggeando código como descubriendo nuevos memes de programación.</p>
                         
                         <div className='flex gap-5 mt-3'>
-                            <BiLogoGithub className="text-2xl md:text-3xl text-white cursor-pointer hover:scale-110 hover:text-indigo-500 hover:rotate-12 transition-all duration-300 ease-in-out" href='https://github.com/JeremiasMeza'></BiLogoGithub>
-                            <BiLogoLinkedin className="text-2xl md:text-3xl text-white cursor-pointer hover:scale-110 hover:text-blue-500 hover:rotate-12 transition-all duration-300 ease-in-out" href='https://www.linkedin.com/in/jeremias-meza-suarez-1495bb199/'></BiLogoLinkedin>
+                        <a href="https://github.com/JeremiasMeza" target="_blank" rel="noopener noreferrer">
+                            <BiLogoGithub className="text-2xl md:text-3xl text-white cursor-pointer hover:scale-110 hover:text-indigo-500 hover:rotate-12 transition-all duration-300 ease-in-out" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/jeremias-meza-suarez-1495bb199/" target="_blank" rel="noopener noreferrer">
+                            <BiLogoLinkedin className="text-2xl md:text-3xl text-white cursor-pointer hover:scale-110 hover:text-blue-500 hover:rotate-12 transition-all duration-300 ease-in-out" />
+                        </a>
                         </div>
                     </motion.div>
                     <img src={image}
                     className="w-[250px] md:w-[400px] rounded-full hover:shadow-2md hover:shadow-pink-400 hover:scale-105 hover:rotate-2 transition-all duration-500 hover:shadow-[5px_5px_29px_rgba(236,72,153,0.3)]"
-                    alt="Descripción de la imagen"  />
+                    alt="Imagen de perfil"  />
             </motion.div>
         </div>
     )

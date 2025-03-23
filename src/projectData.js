@@ -15,6 +15,14 @@ export const projectData = [
     link: "https://radionuevavida7.cl/",
     technologies: ["Wordpress", "MySql", "Php", "HTML", "CSS", "JavaScript"],
   },
+  {
+    id: 2,
+    image: project2,
+    title: "Sistema de ventas e inventario",
+    description:
+      "Este sistema de ventas, construido con Django y el patrón Modelo-Vista-Template (MVT), permite a los administradores gestionar productos, actualizar inventarios y generar reportes de ventas. Los usuarios pueden explorar el catálogo, agregar productos al carrito y realizar compras. También incluye herramientas para análisis de ventas con gráficos interactivos, utilizando Chart.js. La interfaz está diseñada con HTML, CSS, JavaScript y Bootstrap para una experiencia fluida y responsiva.",
+    technologies: ["Python","Django", "MySql", "HTML", "CSS", "JavaScript", "Bootstrap", "Chart.js"],
+  },
 
 
 ];
