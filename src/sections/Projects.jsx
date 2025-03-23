@@ -26,13 +26,12 @@ const Projects = () => {
                     <a href={project.link} target='_blank' key={project.id} className="flex flex-col rounded-xl overflow-hidden cursor-pointer transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-blue-800 ">
                         <img src={project.image} className="hover:scale-105 transition-transform duration-300" alt="" />
 
-                        <div className="flex flex-col gap-3 bg-gray-900 p-5 transition-colorss duration-300 hover:bg-gray-800 flex-grow ">
+                        <div className="flex flex-col gap-3 bg-gray-900 p-5 transition-colors duration-300 hover:bg-gray-800 flex-grow ">
                             <h3 className="text-xl font-semibold">{project.title}</h3>
                             <p className="text-sm text-slate-400">{project.description}</p>
-                            <div
-                            className="flex gap-3 flex-wrap mt-auto">
+                            <div className="flex gap-3 flex-wrap mt-auto">
                                 {project.technologies.map((tech, index) => (
-                                    <span key={index} className="px-2 py-1 bg-indigo-900  rounded-xl ">{tech}</span>
+                                    <span key={index} className="px-2 py-1 bg-indigo-900  rounded-xl text-sm">{tech}</span>
                                 ))}
 
                             </div>
