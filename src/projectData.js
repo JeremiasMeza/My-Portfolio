@@ -23,6 +23,13 @@ export const projectData = [
       "Este sistema de ventas, construido con Django y el patrón Modelo-Vista-Template (MVT), permite a los administradores gestionar productos, actualizar inventarios y generar reportes de ventas. Los usuarios pueden explorar el catálogo, agregar productos al carrito y realizar compras. También incluye herramientas para análisis de ventas con gráficos interactivos, utilizando Chart.js. La interfaz está diseñada con HTML, CSS, JavaScript y Bootstrap para una experiencia fluida y responsiva.",
     technologies: ["Python","Django", "MySql", "HTML", "CSS", "JavaScript", "Bootstrap", "Chart.js"],
   },
-
+  {
+    id: 3,
+    image: project3,
+    title: "ToWork",
+    description:
+      "Plataforma para la creación de portafolios digitales que mejora la búsqueda de empleo, desarrollada con Python Django en el backend y React en el frontend, utilizando una arquitectura basada en API REST.",
+    technologies: ["Python","Django", "MySql", "HTML", "CSS", "JavaScript", "React", "ApiRest"], 
+  }
 
 ];
