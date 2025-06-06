@@ -18,10 +18,11 @@ export const projectData = [
   {
     id: 2,
     image: project2,
-    title: "Sistema de ventas e inventario",
+    title: "Nutriconsult",
     description:
-      "Este sistema de ventas, construido con Django y el patrón Modelo-Vista-Template (MVT), permite a los administradores gestionar productos, actualizar inventarios y generar reportes de ventas. Los usuarios pueden explorar el catálogo, agregar productos al carrito y realizar compras. También incluye herramientas para análisis de ventas con gráficos interactivos, utilizando Chart.js. La interfaz está diseñada con HTML, CSS, JavaScript y Bootstrap para una experiencia fluida y responsiva.",
-    technologies: ["Python","Django", "MySql", "HTML", "CSS", "JavaScript", "Bootstrap", "Chart.js"],
+      "NutriConsult es un sistema de gestión nutricional desarrollado como plugin de WordPress que permite a nutricionistas gestionar pacientes y crear planes alimentarios personalizados, mientras que los pacientes acceden a sus datos y se comunican con su nutricionista a través de paneles diferenciados.",
+    link: "https://nutriconsult.cl/",
+    technologies: ["PHP","Tailwind CSS", "MySql", "HTML5", "CSS3", "JavaScript", "WordPress"],
   },
   {
     id: 3,
@@ -30,6 +31,15 @@ export const projectData = [
     description:
       "Plataforma para la creación de portafolios digitales que mejora la búsqueda de empleo, desarrollada con Python Django en el backend y React en el frontend, utilizando una arquitectura basada en API REST.",
     technologies: ["Python","Django", "MySql", "HTML", "CSS", "JavaScript", "React", "ApiRest"], 
+  },
+  {
+    id: 4,
+    image: project4,
+    title: "Fundación Chanco Solidario",
+    description:
+      "La Fundación Chanco Solidario es una organización comunitaria que trabaja día a día para apoyar a las personas y familias de la comuna de Chanco que más lo necesitan, promoviendo la solidaridad a través de acciones concretas como la entrega de ayuda social, actividades comunitarias, apoyo en emergencias y programas de desarrollo local.",
+    link: "https://fundacionchancosolidario.cl/",
+    technologies: ["PHP", "MySql", "HTML5", "CSS3", "JavaScript", "WordPress"], 
   }
 
 ];
