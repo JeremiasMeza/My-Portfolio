@@ -1,7 +1,7 @@
 import project1 from "../public/project1.png";
 import project2 from "../public/project2.png";
 import project3 from "../public/project3.png";
-import project4 from "../public/project4.jpg";
+import project4 from "../public/project4.png";
 import project5 from "../public/project5.png";
 import project6 from "../public/project6.png";
 
